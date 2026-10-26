@@ -5,7 +5,7 @@
   "license": "MIT",
   "require": {
     "php": "^8.5",
-    "illuminate/support": "^13.0",
+    "illuminate/support": "^13.38.0",
     "liberusoftware/analytics-contracts": "^1.0",
     "liberusoftware/integrations": "^1.0"
   },
@@ -19,7 +19,7 @@
       "name": "analytics-meta"
     }
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "autoload-dev": {
     "psr-4": {
       "Liberu\\Analytics\\Meta\\Tests\\": "tests/"
@@ -27,7 +27,7 @@
   },
   "require-dev": {
     "liberusoftware/package-testbench": "^1.5",
-    "pestphp/pest": "^5.0"
+    "pestphp/pest": "^5.3.3"
   },
   "scripts": {
     "test": "pest"
